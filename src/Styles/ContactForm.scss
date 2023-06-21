@@ -1,0 +1,66 @@
+.container-form { 
+    padding: 1em 2em;
+    color: #f2f2f2;
+
+    h2 {
+      text-align: center;
+      font-size: 2.2em;
+      margin-bottom: .5em;
+    }
+
+    .form-control {
+
+      label {
+        display: inline-block;
+        font-size: 1.5em;
+        padding-bottom: .15em;
+
+        span {
+            color: #af7d26;
+        }
+
+      }
+
+      input {
+        border: none;
+        background-color: #f2f2f2;
+        display: block;
+        font-size: 1.8em;
+        width: 100%;
+        margin-bottom: .5em;
+        padding: .1em .1em;
+      }
+
+    }
+
+    .form-control, input:focus {
+      outline: none;
+    }
+
+    button {
+        padding: 15px 30px;
+        margin-top: .5em;
+        font-size: 1.2em;
+        font-weight: 600;
+        background-color: #b37203;
+        color: rgba($color: #f2f2f2, $alpha: .7);
+        border: none;
+        border-radius: 3.5px;
+        cursor: pointer;
+        transition: .5s;
+
+
+        &:hover {
+            background-color: #af7d26;
+            color: #111;
+            transition: .5s;
+        }
+        
+    }
+
+    .fail {
+      color: #f2317f;
+      font-size: 1.2em;
+    }
+
+}

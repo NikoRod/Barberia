@@ -1,0 +1,268 @@
+.nosotros-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    padding: 2em 2em;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #111;
+    border-top: 1px solid rgba($color: #af7d26, $alpha: .3);
+    border-bottom: 1px solid rgba($color: #af7d26, $alpha: .3);
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .nosotros-desc {
+
+        h1 {
+            font-size: 3em;
+            text-transform: uppercase;
+            text-decoration: underline 1px #af7d26;
+            text-underline-offset: 28px;
+            padding-bottom: 1em;
+            color: #f2f2f2;
+        }
+
+        p {
+            font-size: 1.3em;
+            padding-bottom: .5em;
+            color: #f2f2f2;
+
+            span {
+                color: #ffcb74;
+            }
+
+        }
+
+        button {
+            padding: 15px 30px;
+            margin-top: .5em;
+            font-size: 1.2em;
+            font-weight: 600;
+            background-color: #b37203;
+            color: rgba($color: #f2f2f2, $alpha: .7);
+            border: none;
+            border-radius: 3.5px;
+            cursor: pointer;
+            transition: .5s;
+
+
+            &:hover {
+                background-color: #af7d26;
+                color: #111;
+                transition: .5s;
+            }
+            
+        }
+
+    }
+
+}
+
+// RESPONSIVE: DESKTOP //
+
+// @media screen and (min-width: 1120px) and (max-width: 1328px) {
+// }
+
+// @media screen and (min-width: 1024px) and (max-width: 1119px) {
+// }
+
+// RESPONSIVE: TABLET //
+
+@media screen and (min-width: 960px) and (max-width: 1023px) {
+
+    .nosotros-container {
+
+        .nosotros-desc {
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+        }
+
+    }
+}
+
+// RESPONSIVE: TABLET MINI //
+
+@media screen and (min-width: 850px) and (max-width: 959px) {
+
+    .nosotros-container {
+
+        .nosotros-desc {
+
+            h1 {
+                font-size: 2.4em;
+            }
+
+        }
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 849px) {
+
+    .nosotros-container {
+
+        .nosotros-desc {
+
+            h1 {
+                font-size: 2em;
+            }
+
+        }
+
+    }
+}
+
+// RESPONSIVE: MOBILE //
+
+@media screen and (min-width: 650px) and (max-width: 767px) {
+
+    .nosotros-container {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            display: none;
+        }
+
+        .nosotros-desc {
+
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+            p {
+                font-size: 1.5em;
+            }
+
+            button {
+                font-size: 1.4em;
+            }
+
+        }
+
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 649px) {
+
+    .nosotros-container {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            display: none;
+        }
+
+        .nosotros-desc {
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+            p {
+                font-size: 1.5em;
+            }
+
+            button {
+                font-size: 1.4em;
+            }
+
+        }
+
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 549px) {
+
+    .nosotros-container {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            display: none;
+        }
+
+        .nosotros-desc {
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+            p {
+                font-size: 1.5em;
+            }
+
+            button {
+                font-size: 1.4em;
+            }
+
+        }
+
+    }
+}
+
+// RESPONSIVE: MOBILE MINI //
+
+@media screen and (min-width: 390px) and (max-width: 479px) {
+
+    .nosotros-container {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            display: none;
+        }
+
+        .nosotros-desc {
+
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1.5em;
+            }
+
+            button {
+                font-size: 1.4em;
+            }
+
+        }
+
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 389px) {
+
+    .nosotros-container {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            display: none;
+        }
+
+        .nosotros-desc {
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            p {
+                font-size: 1.2em;
+            }
+
+            button {
+                font-size: 1em;
+            }
+
+        }
+
+    }
+}

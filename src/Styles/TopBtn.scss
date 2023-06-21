@@ -1,0 +1,32 @@
+.topbtn-container {
+    z-index: 999;
+    position: fixed;
+    top: 83vh;
+    right: 1.6em;
+
+    .btn {
+        opacity: 0;
+        visibility: hidden;
+        color: #b37203;
+        background-color: #111;
+        padding: 1em;
+        border-radius: 999px;
+        cursor: pointer;
+        border: .8px solid #af7d26;
+        transition: .5s ease-in-out;
+
+        &:hover {
+            background-color: #af7d26;
+            color: #111;
+            transition: .5s;
+            border: .8px solid #111;
+        }
+    }
+
+    .btn-visible {
+        opacity: 1;
+        visibility: visible;
+        transition: .5s ease-in-out;
+    }
+
+}

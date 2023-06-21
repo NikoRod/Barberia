@@ -1,0 +1,24 @@
+.wspbtn-container {
+    z-index: 999;
+    position: fixed;
+    top: 90vh;
+    right: 1.2em;
+
+    button {
+        color: #b37203;
+        background-color: #111;
+        padding: 1em;
+        border-radius: 999px;
+        cursor: pointer;
+        transition: .5s;
+        border: .8px solid #af7d26;
+
+        &:hover {
+            background-color: #af7d26;
+            color: #111;
+            transition: .5s;
+            border: .8px solid #111;
+        }
+    }
+
+}
